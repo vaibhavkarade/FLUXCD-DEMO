@@ -8,11 +8,11 @@ Fluxcd works on pull mechanism where as argocd works on push mechanism and both 
 
 
 step 1) install fluxctl
-curl -s https://fluxcd.io/install.sh | sudo bash
+cmd: curl -s https://fluxcd.io/install.sh | sudo bash
 
 
 step2)install flux 
-flux install
+cmd: flux install
 This will install FluxCD components like the controller and the source controller in your cluster.
 
 
