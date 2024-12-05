@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: nginx:1.21
+        image: nginx:1.27.3-alpine-slim
         ports:
         - containerPort: 80
 
